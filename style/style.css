@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+  --cor0:#040cea8e;
+  --cor1:rgb(22, 22, 22);
+  --cor2:rgb(133, 133, 133);
+  --cor3:rgb(204, 204, 204);
+  --cor4:rgba(3, 3, 231, 0.856);
+
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-destaque:'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: var(--cor1);
+  font-family: var(--fonte-padrao);
+}
+
+header{
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.116);
+  color: white;
+}
+
+header h1{
+  padding-bottom: 20px;
+  font-family: var(--fonte-destaque);
+}
+
+header p{
+  font-weight: bold;
+}
+
+nav{
+  background-color: var(--cor0);
+  padding: 10px;
+}
+
+.space-left{
+  padding-left: 30px;
+  background-color: var(--cor0);
+}
+
+nav > a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px 10px 15px;
+}
+
+nav > a:hover{
+  background-color: #393fee;
+  border-radius: 10px;
+  transition-duration: .5s;
+}
+
+main h1{
+  font-family: var(--fonte-destaque);
+  font-size: 2em;
+  padding-left: 30px;
+}
+
+main h2{
+  font-family: var(--fonte-destaque);
+  font-size: 1.5em;
+  padding-left: 30px;
+}
+
+main h3{
+  font-family: var(--fonte-destaque);
+  font-size: 1.5em;
+  padding-left: 30px;
+}
+
+main{
+  background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 20px;
+}
+
+main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 2em;
+  font-size: 1em;
+}
+
+img.tabela{
+  display: block;
+  max-width: 600px;
+  margin: auto;
+}
+
+main img{
+  width: 100%;
+  margin: auto;
+}
+
+div.video{
+  background-color: var(--cor4);
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 58%;
+  position: relative;
+}
+
+div.video > iframe{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+
+footer{
+  padding: 20px;
+  background-color: var(--cor4);
+}
+
+footer > p{
+  color: white;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+footer a:hover{
+  background-color: #393fee;
+  padding: 5px;
+}
